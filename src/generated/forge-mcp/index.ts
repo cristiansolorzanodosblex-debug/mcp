@@ -478,7 +478,7 @@ import { tools as networkInterconnects_cnisTools } from "./networkInterconnects/
 import { tools as networkInterconnects_interconnectsTools } from "./networkInterconnects/interconnects/tools.js";
 import { tools as networkInterconnects_settingsTools } from "./networkInterconnects/settings/tools.js";
 import { tools as networkInterconnects_slotsTools } from "./networkInterconnects/slots/tools.js";
-import { tools as o11y_agents_sessionsTools } from "./o11y/agents/sessions/tools.js";
+import { tools as o11y_agents_tracesTools } from "./o11y/agents/traces/tools.js";
 import { tools as o11y_destinationsTools } from "./o11y/destinations/tools.js";
 import { tools as o11y_issues_automationsTools } from "./o11y/issues/automations/tools.js";
 import { tools as o11y_issuesTools } from "./o11y/issues/tools.js";
@@ -1528,7 +1528,7 @@ export const tools: readonly Tool[] = [
   ...networkInterconnects_settingsTools,
   ...networkInterconnects_slotsTools,
   ...o11yTools,
-  ...o11y_agents_sessionsTools,
+  ...o11y_agents_tracesTools,
   ...o11y_destinationsTools,
   ...o11y_issuesTools,
   ...o11y_issues_automationsTools,
